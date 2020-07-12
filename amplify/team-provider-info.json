@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-stockpicker-dev-224708-authRole",
+            "UnauthRoleArn": "arn:aws:iam::533179998380:role/amplify-stockpicker-dev-224708-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::533179998380:role/amplify-stockpicker-dev-224708-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-stockpicker-dev-224708-deployment",
+            "UnauthRoleName": "amplify-stockpicker-dev-224708-unauthRole",
+            "StackName": "amplify-stockpicker-dev-224708",
+            "StackId": "arn:aws:cloudformation:eu-central-1:533179998380:stack/amplify-stockpicker-dev-224708/daeca020-c480-11ea-9a7b-0a78571d47e2",
+            "AmplifyAppId": "d2szcnevsc6znp"
+        }
+    }
+}
