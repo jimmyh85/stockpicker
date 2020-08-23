@@ -1,0 +1,11 @@
+<div style="margin:25px;">
+  <mat-form-field class="example-full-width">
+    <mat-label>Search a stock</mat-label>
+    <input matInput [formControl]="searchQuery" placeholder="Search...">
+  </mat-form-field>
+
+  <ul>
+    <li *ngFor="let result of results$ | async">{{ result }}</li>
+  </ul>
+
+</div>
