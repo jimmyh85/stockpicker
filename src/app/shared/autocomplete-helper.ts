@@ -1,5 +1,5 @@
 import {debounceTime, distinctUntilChanged, filter, skip, switchMap, takeUntil} from 'rxjs/operators';
-import {from, of} from 'rxjs';
+import {of} from 'rxjs';
 
 export const autocomplete = (time, minLength, selector) => (source$) =>
   source$.pipe(

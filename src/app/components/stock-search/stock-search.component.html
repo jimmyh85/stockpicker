@@ -1,11 +1,15 @@
-<div style="margin:25px;">
+<div style="margin:25px;" *ngIf="results$ | async as results; else loading">
   <mat-form-field class="example-full-width">
     <mat-label>Search a stock</mat-label>
     <input matInput [formControl]="searchQuery" placeholder="Search...">
   </mat-form-field>
 
   <ul>
-    <li *ngFor="let result of results$ | async">{{ result }}</li>
+    <li *ngFor="let result of results">{{ result }}</li>
+    <li *ngIf="results.length === 0 && searchQuery.dirty">No results found.</li>
   </ul>
 
 </div>
+<ng-template #loading>
+  <div>Loading ...</div>
+</ng-template>
