@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { StockSearchComponent } from './components/stock-search/stock-search.component';
 import { SharedModule } from './shared/shared.module';
 
+
 @NgModule({
   declarations: [AppComponent, StockSearchComponent],
   imports: [
